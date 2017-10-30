@@ -9,7 +9,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/j7xelte/overlay
 
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/samsung/j7xelte/kernel
+	LOCAL_KERNEL := device/samsung/j7xelte/prebuilt
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
